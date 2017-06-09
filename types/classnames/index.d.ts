@@ -9,7 +9,7 @@
 
 type ClassValue = string | number | ClassDictionary | ClassArray | undefined | null | false;
 
-interface ClassDictionary {
+export interface ClassDictionary {
 	[id: string]: boolean | undefined | null;
 }
 
